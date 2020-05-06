@@ -40,3 +40,7 @@ def swap_elements(array)
      b[1] <=> c[2]
   end
 end
+
+def reverse_array(array)
+array.reverse
+end
