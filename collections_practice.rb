@@ -64,3 +64,11 @@ def sum_array(array)
     sum + num
   end
 end
+
+def add_s(array)
+  array.collect do |element|
+    if element == array[1]
+      element
+    else
+      element << "s"
+end
