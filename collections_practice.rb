@@ -49,5 +49,5 @@ def kesha_maker(array)
   array.collect do |element|
     newele = element.delete(element[2])
     newele.insert(2, "$")
-end
+  end
 end
