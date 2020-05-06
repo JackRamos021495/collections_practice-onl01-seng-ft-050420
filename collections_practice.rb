@@ -22,4 +22,3 @@ def sort_array_desc(array)
     end
   end
 end
-      
