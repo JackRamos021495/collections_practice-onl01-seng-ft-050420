@@ -51,3 +51,10 @@ def kesha_maker(array)
     newele.insert(2, "$")
   end
 end
+
+def find_a(array)
+  array.keep_if do |element|
+    element[0] == "a"
+  end
+
+end
