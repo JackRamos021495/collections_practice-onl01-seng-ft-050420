@@ -4,8 +4,9 @@ def sort_array_asc(array)
       0
     elsif a < b
      -1
-   elsif a > b
+    elsif a > b
      1
-   end
+    end
+  end
 
 end
